@@ -10,9 +10,9 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 # Load the saved models
-diabetes_model = pickle.load(open("C:\\harin\\internship\\diabetes_model.sav", 'rb'))
-heart_disease_model = pickle.load(open("C:\\harin\\internship\\heart_disease_model.sav", 'rb'))
-parkinson_model = pickle.load(open("C:\\harin\\internship\\parkinsons_data.sav", 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav", 'rb'))
+heart_disease_model = pickle.load(open("heart_disease_model.sav", 'rb'))
+parkinson_model = pickle.load(open("parkinsons_data.sav", 'rb'))
 
 # OPTIONAL: Load scalers if used during training
 # Uncomment if you saved and used scalers
