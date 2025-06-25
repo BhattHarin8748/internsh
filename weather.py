@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 # Load your trained model
-weather_model = pickle.load(open(r"C:\harin\internship\weather_model.sav", 'rb'))
+weather_model = pickle.load(open(r"weather_model.sav", 'rb'))
 
 # Sidebar
 with st.sidebar:st.markdown("<h2 style='text-align: center; color: #00aaff;'>The great weather prediction app of Ambalal Patel</h2>", unsafe_allow_html=True)
