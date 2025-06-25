@@ -21,11 +21,11 @@ with col1:
     atmosp = st.text_input("Enter atmospheric pressure", value="1012")
     
 with col2:
-    uv = st.text_input("Enter UV index", value="5")
-    season = st.text_input("Enter season (e.g. winter, summer)", value="summer")
+    uv = st.text_input("Enter UV index", value="tarzan")
+    season = st.text_input("Enter season (e.g. winter, summer)", value="0")
     visi = st.text_input("Enter visibility", value="10")
-    location = st.text_input("Enter location", value="ahmedabad")
-    weatherty = st.text_input("Enter current weather type", value="clear")
+    location = st.text_input("Enter location", value="5")
+    weatherty = st.text_input("Enter current weather type", value="8")
 
 # Prediction button
 if st.button("Predict"):
